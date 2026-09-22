@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Programs</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f5f7fb;color:#172033}
+header{background:linear-gradient(135deg,#111827,#4f46e5);color:white;padding:42px 20px}
+.container{max-width:1100px;margin:auto;padding:24px 18px} h1{margin:0 0 8px} .muted{color:#64748b}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px} .nav a{padding:10px 14px;border-radius:9px;text-decoration:none;background:#4f46e5;color:white;font-weight:600} .nav a.secondary{background:#334155}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.program{display:flex;align-items:center;gap:14px;padding:17px;background:white;border:1px solid #e2e8f0;border-radius:14px;text-decoration:none;color:#172033;box-shadow:0 5px 18px #0000000a;transition:.2s}
+.program:hover{transform:translateY(-2px);box-shadow:0 10px 24px #00000014;border-color:#818cf8}
+.num{min-width:44px;height:38px;display:grid;place-items:center;border-radius:10px;background:#eef2ff;color:#4f46e5;font-weight:800}
+.ptitle{flex:1;font-weight:600;line-height:1.35} .arrow{font-size:20px;color:#4f46e5}
+footer{text-align:center;color:#64748b;padding:35px}
+</style>
+</head>
+<body>
+<header><div class="container"><h1>JavaScript Programs</h1><p>Complete practical program collection</p></div></header>
+<main class="container">
+<nav class="nav"><a href="../index.html">Home</a></nav>
+<p class="muted">120 programs available. Click any program to open its working demonstration.</p>
+<section class="list">
+        <a class="program" href="js-001.html">
+          <span class="num">001</span>
+          <span class="ptitle">Write a JavaScript program to display “Hello World”.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-002.html">
+          <span class="num">002</span>
+          <span class="ptitle">Write a JavaScript program to perform arithmetic operations.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-003.html">
+          <span class="num">003</span>
+          <span class="ptitle">Write a program to find the largest of three numbers.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-004.html">
+          <span class="num">004</span>
+          <span class="ptitle">Write a program to check whether a number is even or odd.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-005.html">
+          <span class="num">005</span>
+          <span class="ptitle">Write a program to check whether a number is positive, negative, or zero.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-006.html">
+          <span class="num">006</span>
+          <span class="ptitle">Write a program to find the factorial of a number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-007.html">
+          <span class="num">007</span>
+          <span class="ptitle">Write a program to generate the Fibonacci series.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-008.html">
+          <span class="num">008</span>
+          <span class="ptitle">Write a program to check whether a number is prime.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-009.html">
+          <span class="num">009</span>
+          <span class="ptitle">Write a program to check whether a number is a palindrome.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-010.html">
+          <span class="num">010</span>
+          <span class="ptitle">Write a program to reverse a number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-011.html">
+          <span class="num">011</span>
+          <span class="ptitle">Write a program to find the sum of digits of a number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-012.html">
+          <span class="num">012</span>
+          <span class="ptitle">Write a program to find the largest and smallest element in an array.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-013.html">
+          <span class="num">013</span>
+          <span class="ptitle">Write a program to sort an array.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-014.html">
+          <span class="num">014</span>
+          <span class="ptitle">Write a program to find the sum and average of array elements.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-015.html">
+          <span class="num">015</span>
+          <span class="ptitle">Write a program to demonstrate JavaScript functions.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-016.html">
+          <span class="num">016</span>
+          <span class="ptitle">Write a program using arrow functions.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-017.html">
+          <span class="num">017</span>
+          <span class="ptitle">Write a program demonstrating strings and string methods.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-018.html">
+          <span class="num">018</span>
+          <span class="ptitle">Write a program demonstrating arrays and array methods.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-019.html">
+          <span class="num">019</span>
+          <span class="ptitle">Write a program demonstrating objects in JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-020.html">
+          <span class="num">020</span>
+          <span class="ptitle">Write a program demonstrating Date and Math objects.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-021.html">
+          <span class="num">021</span>
+          <span class="ptitle">Create a webpage that changes text using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-022.html">
+          <span class="num">022</span>
+          <span class="ptitle">Change the background color of a webpage using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-023.html">
+          <span class="num">023</span>
+          <span class="ptitle">Create a button click event using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-024.html">
+          <span class="num">024</span>
+          <span class="ptitle">Create a program to show/hide an HTML element.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-025.html">
+          <span class="num">025</span>
+          <span class="ptitle">Create a program to change an image when a button is clicked.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-026.html">
+          <span class="num">026</span>
+          <span class="ptitle">Create a digital clock using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-027.html">
+          <span class="num">027</span>
+          <span class="ptitle">Create a simple calculator using HTML, CSS, and JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-028.html">
+          <span class="num">028</span>
+          <span class="ptitle">Create a number guessing game.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-029.html">
+          <span class="num">029</span>
+          <span class="ptitle">Create a form validation program.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-030.html">
+          <span class="num">030</span>
+          <span class="ptitle">Validate name, email, phone number, and password using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-031.html">
+          <span class="num">031</span>
+          <span class="ptitle">Create a to-do list using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-032.html">
+          <span class="num">032</span>
+          <span class="ptitle">Create a simple quiz application.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-033.html">
+          <span class="num">033</span>
+          <span class="ptitle">Create a counter application with increment and decrement buttons.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-034.html">
+          <span class="num">034</span>
+          <span class="ptitle">Create a stopwatch using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-035.html">
+          <span class="num">035</span>
+          <span class="ptitle">Create a countdown timer using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-036.html">
+          <span class="num">036</span>
+          <span class="ptitle">Demonstrate ES6 let, const, template literals, and destructuring.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-037.html">
+          <span class="num">037</span>
+          <span class="ptitle">Demonstrate spread and rest operators.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-038.html">
+          <span class="num">038</span>
+          <span class="ptitle">Demonstrate classes and objects.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-039.html">
+          <span class="num">039</span>
+          <span class="ptitle">Demonstrate inheritance in JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-040.html">
+          <span class="num">040</span>
+          <span class="ptitle">Demonstrate callbacks, promises, and async/await.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-041.html">
+          <span class="num">041</span>
+          <span class="ptitle">Fetch data from an API using Fetch API.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-042.html">
+          <span class="num">042</span>
+          <span class="ptitle">Display API data dynamically on a webpage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-043.html">
+          <span class="num">043</span>
+          <span class="ptitle">Store and retrieve data using localStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-044.html">
+          <span class="num">044</span>
+          <span class="ptitle">Create a responsive login form with JavaScript validation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-045.html">
+          <span class="num">045</span>
+          <span class="ptitle">Create a complete interactive webpage using HTML, CSS, and JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-046.html">
+          <span class="num">046</span>
+          <span class="ptitle">Write a JavaScript program to swap two numbers.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-047.html">
+          <span class="num">047</span>
+          <span class="ptitle">Write a program to find the greatest common divisor (GCD) of two numbers.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-048.html">
+          <span class="num">048</span>
+          <span class="ptitle">Write a program to find the least common multiple (LCM) of two numbers.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-049.html">
+          <span class="num">049</span>
+          <span class="ptitle">Write a program to check whether a number is an Armstrong number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-050.html">
+          <span class="num">050</span>
+          <span class="ptitle">Write a program to check whether a number is a perfect number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-051.html">
+          <span class="num">051</span>
+          <span class="ptitle">Write a program to generate the multiplication table of a given number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-052.html">
+          <span class="num">052</span>
+          <span class="ptitle">Write a program to calculate the power of a number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-053.html">
+          <span class="num">053</span>
+          <span class="ptitle">Write a program to count the number of digits in a number.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-054.html">
+          <span class="num">054</span>
+          <span class="ptitle">Write a program to find the second-largest element in an array.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-055.html">
+          <span class="num">055</span>
+          <span class="ptitle">Write a program to remove duplicate elements from an array.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-056.html">
+          <span class="num">056</span>
+          <span class="ptitle">Write a program to merge two arrays.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-057.html">
+          <span class="num">057</span>
+          <span class="ptitle">Write a program to find the frequency of each element in an array.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-058.html">
+          <span class="num">058</span>
+          <span class="ptitle">Write a program to find common elements in two arrays.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-059.html">
+          <span class="num">059</span>
+          <span class="ptitle">Write a program to reverse a string.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-060.html">
+          <span class="num">060</span>
+          <span class="ptitle">Write a program to check whether a string is a palindrome.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-061.html">
+          <span class="num">061</span>
+          <span class="ptitle">Write a program to count vowels and consonants in a string.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-062.html">
+          <span class="num">062</span>
+          <span class="ptitle">Write a program to count the number of words in a string.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-063.html">
+          <span class="num">063</span>
+          <span class="ptitle">Write a program to find the frequency of characters in a string.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-064.html">
+          <span class="num">064</span>
+          <span class="ptitle">Write a program to demonstrate regular expressions in JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-065.html">
+          <span class="num">065</span>
+          <span class="ptitle">Write a program to validate an email address using a regular expression.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-066.html">
+          <span class="num">066</span>
+          <span class="ptitle">Create a webpage and use JavaScript to add new elements dynamically.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-067.html">
+          <span class="num">067</span>
+          <span class="ptitle">Create a program to remove HTML elements dynamically.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-068.html">
+          <span class="num">068</span>
+          <span class="ptitle">Create a program to change CSS styles using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-069.html">
+          <span class="num">069</span>
+          <span class="ptitle">Create a program to change multiple HTML elements simultaneously.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-070.html">
+          <span class="num">070</span>
+          <span class="ptitle">Demonstrate getElementById() and getElementsByClassName().</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-071.html">
+          <span class="num">071</span>
+          <span class="ptitle">Demonstrate querySelector() and querySelectorAll().</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-072.html">
+          <span class="num">072</span>
+          <span class="ptitle">Create a program to create and remove CSS classes dynamically.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-073.html">
+          <span class="num">073</span>
+          <span class="ptitle">Create a dynamic table using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-074.html">
+          <span class="num">074</span>
+          <span class="ptitle">Create a program to add and delete rows from a table.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-075.html">
+          <span class="num">075</span>
+          <span class="ptitle">Create a program to search/filter table records.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-076.html">
+          <span class="num">076</span>
+          <span class="ptitle">Create a live character counter for a textarea.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-077.html">
+          <span class="num">077</span>
+          <span class="ptitle">Create a password show/hide feature.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-078.html">
+          <span class="num">078</span>
+          <span class="ptitle">Create a dynamic dropdown list.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-079.html">
+          <span class="num">079</span>
+          <span class="ptitle">Create a dependent dropdown such as Country → State → City.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-080.html">
+          <span class="num">080</span>
+          <span class="ptitle">Create an image slideshow/carousel using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-081.html">
+          <span class="num">081</span>
+          <span class="ptitle">Demonstrate mouse events using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-082.html">
+          <span class="num">082</span>
+          <span class="ptitle">Demonstrate keyboard events using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-083.html">
+          <span class="num">083</span>
+          <span class="ptitle">Demonstrate form events such as submit, change, focus, and blur.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-084.html">
+          <span class="num">084</span>
+          <span class="ptitle">Create a webpage that responds to double-click events.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-085.html">
+          <span class="num">085</span>
+          <span class="ptitle">Create a program using event bubbling and event capturing.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-086.html">
+          <span class="num">086</span>
+          <span class="ptitle">Demonstrate event delegation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-087.html">
+          <span class="num">087</span>
+          <span class="ptitle">Create a keyboard-controlled webpage/game.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-088.html">
+          <span class="num">088</span>
+          <span class="ptitle">Create a drag-and-drop application using JavaScript.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-089.html">
+          <span class="num">089</span>
+          <span class="ptitle">Create a student registration form with JavaScript validation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-090.html">
+          <span class="num">090</span>
+          <span class="ptitle">Create a login form with username and password validation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-091.html">
+          <span class="num">091</span>
+          <span class="ptitle">Create a password strength checker.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-092.html">
+          <span class="num">092</span>
+          <span class="ptitle">Create a signup form with password confirmation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-093.html">
+          <span class="num">093</span>
+          <span class="ptitle">Create a feedback form with validation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-094.html">
+          <span class="num">094</span>
+          <span class="ptitle">Create a college admission form with JavaScript validation.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-095.html">
+          <span class="num">095</span>
+          <span class="ptitle">Display validation error messages dynamically without reloading the page.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-096.html">
+          <span class="num">096</span>
+          <span class="ptitle">Demonstrate the Window object.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-097.html">
+          <span class="num">097</span>
+          <span class="ptitle">Demonstrate the Navigator object.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-098.html">
+          <span class="num">098</span>
+          <span class="ptitle">Demonstrate the Location object.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-099.html">
+          <span class="num">099</span>
+          <span class="ptitle">Demonstrate the History object.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-100.html">
+          <span class="num">100</span>
+          <span class="ptitle">Create a program using localStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-101.html">
+          <span class="num">101</span>
+          <span class="ptitle">Create a program using sessionStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-102.html">
+          <span class="num">102</span>
+          <span class="ptitle">Create a shopping cart using localStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-103.html">
+          <span class="num">103</span>
+          <span class="ptitle">Create a theme switcher (light/dark mode) using localStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-104.html">
+          <span class="num">104</span>
+          <span class="ptitle">Create a digital calculator.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-105.html">
+          <span class="num">105</span>
+          <span class="ptitle">Create a digital clock.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-106.html">
+          <span class="num">106</span>
+          <span class="ptitle">Create a stopwatch.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-107.html">
+          <span class="num">107</span>
+          <span class="ptitle">Create a countdown timer.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-108.html">
+          <span class="num">108</span>
+          <span class="ptitle">Create a to-do list application.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-109.html">
+          <span class="num">109</span>
+          <span class="ptitle">Create a weather application using an API.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-110.html">
+          <span class="num">110</span>
+          <span class="ptitle">Create a quiz application.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-111.html">
+          <span class="num">111</span>
+          <span class="ptitle">Create a number guessing game.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-112.html">
+          <span class="num">112</span>
+          <span class="ptitle">Create a tic-tac-toe game.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-113.html">
+          <span class="num">113</span>
+          <span class="ptitle">Create a simple expense tracker.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-114.html">
+          <span class="num">114</span>
+          <span class="ptitle">Create a student marks/grade calculator.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-115.html">
+          <span class="num">115</span>
+          <span class="ptitle">Create a simple shopping cart.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-116.html">
+          <span class="num">116</span>
+          <span class="ptitle">Create a notes application using localStorage.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-117.html">
+          <span class="num">117</span>
+          <span class="ptitle">Create a random password generator.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-118.html">
+          <span class="num">118</span>
+          <span class="ptitle">Create a BMI calculator.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-119.html">
+          <span class="num">119</span>
+          <span class="ptitle">Create a currency converter using an API.</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="program" href="js-120.html">
+          <span class="num">120</span>
+          <span class="ptitle">Create a complete interactive portfolio website using HTML, CSS, and JavaScript.</span>
+          <span class="arrow">→</span>
+        </a></section>
+</main>
+<footer>HTML • CSS • JavaScript Practical Programs</footer>
+</body>
+</html>
