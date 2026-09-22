@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>62 - Flex Alignment & Order</title>
+    <style>
+        .container { display: flex; height: 150px; background: #333; align-items: center; justify-content: space-between; padding: 10px; }
+        .box { background: #ff9ff3; padding: 20px; border-radius: 4px; font-family: sans-serif; }
+        .first { order: 2; }
+        .second { order: 1; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="container">
+        <div class="box first">Box 1 (Order: 2)</div>
+        <div class="box second">Box 2 (Order: 1)</div>
+    </div>
+</body>
+</html>

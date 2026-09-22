@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13 - Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .form-card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 350px; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-size: 0.9rem; color: #333; }
+        .form-group input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        .submit-btn { width: 100%; padding: 12px; background: #27ae60; color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+        .submit-btn:hover { background: #219150; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="form-card">
+        <h2>Register</h2>
+        <div class="form-group"><label>Full Name</label><input type="text" placeholder="John Doe"></div>
+        <div class="form-group"><label>Email</label><input type="email" placeholder="john@example.com"></div>
+        <div class="form-group"><label>Password</label><input type="password" placeholder="••••••••"></div>
+        <button class="submit-btn">Create Account</button>
+    </div>
+</body>
+</html>

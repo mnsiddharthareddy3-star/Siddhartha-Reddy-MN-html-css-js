@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08 - Float and Clear</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .img-float { float: left; width: 150px; margin-right: 20px; margin-bottom: 10px; border-radius: 8px; }
+        .clearfix::after { content: ""; clear: both; display: table; }
+        .clear-box { clear: both; background: #34495e; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="clearfix">
+        <img src="https://via.placeholder.com/150" alt="Placeholder" class="img-float">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Float properties cause text to wrap around images.</p>
+    </div>
+    <div class="clear-box">This box clears floats using clear: both.</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>71 - Dark Mode Theme</title>
+    <style>
+        :root { --bg: #ffffff; --text: #000000; }
+        [data-theme="dark"] { --bg: #121212; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: sans-serif; padding: 40px; transition: 0.3s; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <h2>CSS Variables Dark Mode</h2>
+    <button onclick="document.body.setAttribute('data-theme', document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark')">Toggle Theme</button>
+</body>
+</html>

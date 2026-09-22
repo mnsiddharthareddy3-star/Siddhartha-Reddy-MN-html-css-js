@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>29 - CSS Variables</title>
+    <style>
+        :root {
+            --primary-color: #8e44ad;
+            --secondary-color: #f39c12;
+            --padding-standard: 16px;
+        }
+        .box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: var(--padding-standard);
+            border-left: 5px solid var(--secondary-color);
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="box">Styled using Custom CSS Variables (--primary-color)</div>
+</body>
+</html>

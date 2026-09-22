@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>48 - Two Column Layout</title>
+    <style>
+        .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; font-family: sans-serif; padding: 20px; }
+        .main { background: #e0f7fa; padding: 20px; }
+        .sidebar { background: #fff3e0; padding: 20px; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="container">
+        <div class="main"><h2>Main Article Area (2fr)</h2></div>
+        <div class="sidebar"><h3>Sidebar (1fr)</h3></div>
+    </div>
+</body>
+</html>

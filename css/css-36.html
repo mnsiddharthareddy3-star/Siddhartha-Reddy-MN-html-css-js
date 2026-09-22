@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>36 - Z-Index Stacking Order</title>
+    <style>
+        .container { position: relative; }
+        .box { position: absolute; width: 120px; height: 120px; color: white; font-weight: bold; padding: 10px; font-family: sans-serif; }
+        .box1 { background: red; top: 20px; left: 20px; z-index: 1; }
+        .box2 { background: blue; top: 50px; left: 50px; z-index: 3; }
+        .box3 { background: green; top: 80px; left: 80px; z-index: 2; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="container">
+        <div class="box box1">Z-Index: 1</div>
+        <div class="box box2">Z-Index: 3 (Top)</div>
+        <div class="box box3">Z-Index: 2</div>
+    </div>
+</body>
+</html>

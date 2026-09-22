@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>38 - Visibility & Hiding Elements</title>
+    <style>
+        .box { padding: 15px; background: #3498db; color: white; margin-bottom: 10px; font-family: sans-serif; }
+        .hidden-display { display: none; } /* Removes element from layout layout space */
+        .hidden-visibility { visibility: hidden; } /* Hides element but leaves layout gap */
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="box">Visible Box 1</div>
+    <div class="box hidden-visibility">Hidden Box (Visibility: Hidden - Preserves space)</div>
+    <div class="box">Visible Box 2</div>
+    <div class="box hidden-display">Hidden Box (Display: None)</div>
+    <div class="box">Visible Box 3</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>43 - CSS Filters</title>
+    <style>
+        body { font-family: sans-serif; display: flex; gap: 20px; padding: 40px; }
+        .filter-card { width: 150px; text-align: center; }
+        img { width: 100%; border-radius: 8px; }
+        .blur { filter: blur(3px); }
+        .grayscale { filter: grayscale(100%); }
+        .brightness { filter: brightness(150%); }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="filter-card"><img src="https://via.placeholder.com/150" class="blur"><p>Blur</p></div>
+    <div class="filter-card"><img src="https://via.placeholder.com/150" class="grayscale"><p>Grayscale</p></div>
+    <div class="filter-card"><img src="https://via.placeholder.com/150" class="brightness"><p>Brightness</p></div>
+</body>
+</html>

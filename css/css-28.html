@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28 - Combinator Selectors</title>
+    <style>
+        div p { color: blue; } /* Descendant */
+        div > span { color: red; font-weight: bold; } /* Direct Child */
+        h2 + p { color: green; } /* Adjacent Sibling */
+        h2 ~ p { font-style: italic; } /* General Sibling */
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div><span>Direct Child Span</span><p>Descendant Paragraph</p></div>
+    <h2>Heading</h2>
+    <p>Adjacent sibling paragraph (Immediate next)</p>
+    <p>General sibling paragraph</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>61 - Grid Template Areas</title>
+    <style>
+        .layout {
+            display: grid;
+            grid-template-areas:
+                'header header'
+                'sidebar main'
+                'footer footer';
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+            font-family: sans-serif;
+        }
+        .header { grid-area: header; background: #ff7675; padding: 15px; }
+        .sidebar { grid-area: sidebar; background: #74b9ff; padding: 15px; }
+        .main { grid-area: main; background: #55efc4; padding: 15px; }
+        .footer { grid-area: footer; background: #a29bfe; padding: 15px; }
+    </style>
+</head>
+<body><nav style="padding:14px 18px;background:#111827;display:flex;gap:10px;flex-wrap:wrap;">
+<a href="../index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#4f46e5;border-radius:8px;">Home</a>
+<a href="index.html" style="color:white;text-decoration:none;padding:8px 12px;background:#334155;border-radius:8px;">Back to CSS Programs</a>
+</nav>
+    <div class="layout">
+        <div class="header">Header Area</div>
+        <div class="sidebar">Sidebar Area</div>
+        <div class="main">Main Content Area</div>
+        <div class="footer">Footer Area</div>
+    </div>
+</body>
+</html>
